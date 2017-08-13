@@ -1,0 +1,25 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <div th:replace="fragments/header :: header-css"/>
+</head>
+<body>
+
+<div th:replace="fragments/header :: header"/>
+
+<div class="container">
+
+    <div class="starter-template">
+        <h1>Default page (No need to login)</h1><h1>  </h1>
+        <h3>Hi welcome to default non-secure page - you can view this page without
+            using credentials [username / password].</h3><h3>  </h3>
+        <h3>This web page is not secured by Spring Security Framework</h3>
+    </div>
+
+</div>
+<!-- /.container -->
+
+<div th:replace="fragments/footer :: footer"/>
+
+</body>
+</html>
